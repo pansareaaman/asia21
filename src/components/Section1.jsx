@@ -7,6 +7,7 @@ import { GoGoal } from "react-icons/go";
 import { PiFlowerLotus } from "react-icons/pi";
 import { CiDumbbell } from "react-icons/ci";
 import { GiWeightLiftingUp } from "react-icons/gi";
+import Classes from './Classes';
 const Section1 = () => {
   return (
     <div>
@@ -32,6 +33,7 @@ const Section1 = () => {
           At Asia21, we are dedicated to helping you achieve your fitness goals, whether you're a beginner or a seasoned athlete. Our state-of-the-art facilities, experienced trainers, and diverse range of classes make us the ultimate fitness destination in Pune.
         </div>
       </div> */}
+      <br/>
       <div className="sec1-part3">
         <div className="part1">
           <img src={img2} alt="gym" />
@@ -76,6 +78,7 @@ const Section1 = () => {
         </div>
       </div>
 
+      <Classes/>
     </div>
   )
 }
