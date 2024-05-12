@@ -1,0 +1,37 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.backimg img{    
+    padding-top: 50px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.head-text{
+    color: white;
+    top: 20vh;
+    left: 20vh;
+    position: absolute;
+   font-size: 10px;
+    border-bottom: 5px solid white;
+}
+
+.head-text h1{
+    font-family: sans-serif;
+    font-size: 5em;
+}
+
+.head-text span{
+    color: orange;
+    justify-content: space-between;
+}
+
+.head-text p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: orange;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+    /* background-color: white; */
+}
