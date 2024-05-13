@@ -48,7 +48,7 @@ const Login = () => {
   return (
     <div>
       <div className="wrapper">
-        <form className="form_main" onSubmit={handleSubmit}>
+        <form className="form_main" action="https://getform.io/f/paygjqda" method="POST"> 
           <p className="heading">Register</p>
           <div className="inputContainer">
             <input
@@ -59,6 +59,7 @@ const Login = () => {
               type="text"
               value={form.firstName}
               onChange={handleForm}
+              required
             />
           </div>
           <div className="inputContainer">
@@ -70,6 +71,7 @@ const Login = () => {
               type="text"
               value={form.lastName}
               onChange={handleForm}
+              required
             />
           </div>
           <div className="inputContainer">
@@ -81,6 +83,7 @@ const Login = () => {
               type="text"
               value={form.age}
               onChange={handleForm}
+              required
             />
           </div>
           <div className="inputContainer">
@@ -92,6 +95,7 @@ const Login = () => {
               type="email"
               value={form.email}
               onChange={handleForm}
+              required
             />
           </div>
           <div className="inputContainer">
@@ -103,6 +107,7 @@ const Login = () => {
               type="text"
               value={form.phoneNumber}
               onChange={handleForm}
+              required
             />
           </div>
           <button type="submit" id="button">Submit</button>
