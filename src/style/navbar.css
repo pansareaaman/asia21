@@ -3,6 +3,7 @@
 }
 
 .container{
+    z-index: 3;
     display: flex;
     width: 100%;
     justify-content: space-evenly;

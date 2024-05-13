@@ -1,37 +1,46 @@
-*{
-    font-family: 'Times New Roman', Times, serif;
-}
 
-.backimg img{    
-    padding-top: 50px;
-    width: 100%;
-    max-height: 500px;
-}
-
-.head-text{
+  .contact-wrapper{
+    z-index: -1;
+    padding-top: 0px;
+    height: 100vh;
+    background-color: black;
+  }
+  .bg-image {
+   
+    background-image: url('../assets/contact.jpg');
+   
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    
+    height: 100%; 
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
-    top: 20vh;
-    left: 20vh;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
     position: absolute;
-   font-size: 10px;
-    border-bottom: 5px solid white;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
 
-.head-text h1{
-    font-family: sans-serif;
-    font-size: 5em;
-}
 
-.head-text span{
-    color: orange;
-    justify-content: space-between;
-}
 
-.head-text p{
-    font-size: 20px;
-    font-family: sans-serif;
-    color: orange;
-    padding-bottom: 5px;
-    border-bottom: 5px solid white;
-    /* background-color: white; */
-}
+
+  
+  

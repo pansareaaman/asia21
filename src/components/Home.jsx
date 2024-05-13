@@ -23,11 +23,11 @@ const Home = () => {
         <div className="sec1-part2">
             <div className="video-part">
             
-            <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/qBjZ3Osp5fo?si=vtdKvT54MP9qTUrx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/qBjZ3Osp5fo?si=vtdKvT54MP9qTUrx" title="YouTube video player" frameborder="0"  allow="accelerometer;fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="info-part">
-            <h1>STORY ABOUT US</h1>
-            <h4>Welcome to Asia21 Fitness Club, your premier destination for fitness and wellness in Pune, India.</h4>
+            <h1><center>STORY ABOUT US </center></h1>
+            <h4><center>Welcome to Asia21 Fitness Club, your premier destination for fitness and wellness in Pune, India.</center></h4>
 
 At Asia21, we are dedicated to helping you achieve your fitness goals, whether you're a beginner or a seasoned athlete. Our state-of-the-art facilities, experienced trainers, and diverse range of classes make us the ultimate fitness destination in Pune.
             </div>
