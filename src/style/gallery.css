@@ -30,9 +30,25 @@
 
 .grid-cover img{
     width: 100%;
+    
 }
 
-@media only screen and (max-width: 450px) {
+
+@media (max-width: 768px) {
+    .h1-gallery-over {
+        top: 28%;
+    }
+    .grid-cover{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+      }
+ 
+    
+    
+    
+
+@media only screen and (max-width: 480px) {
 
     .h1-gallery-over {
         top: 17%;

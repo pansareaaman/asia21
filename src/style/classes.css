@@ -84,6 +84,9 @@
 
 /* Media Query for Mobile Devices and Low Resolution Tablets */
 @media (max-width: 768px) {
+    .classes-body h3 {
+        margin-top: 50px;
+    }
     .classes-body {
         padding: 3%;
     }
@@ -91,7 +94,7 @@
         font-size: 30px;
     }
     .classes-card {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         row-gap: 2%;
     }
     .classes-card-item-text {
@@ -99,5 +102,15 @@
     }
     .classes-card-item-innertext {
         font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+        .classes-body h3 {
+        font-size: 20px;
+    }
+    .classes-card {
+        grid-template-columns:  1fr;
+        row-gap: 2%;
     }
 }
