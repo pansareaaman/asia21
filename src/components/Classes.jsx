@@ -9,6 +9,11 @@ import dance from '../assets/dance.webp';
 import { FaUserAlt } from "react-icons/fa";
 const Classes = () => {
   return (
+    <>
+      {/* <div>
+        <img src={bgimg} alt="" className="gallery-upper" />
+        <h1 className="h1-gallery-over">UNLIMITED CLASSES</h1>
+      </div> */}
     <div className='classes-body'>
        <h3>Unlimited Classes</h3>
        <div className="classes-card">
@@ -86,6 +91,7 @@ const Classes = () => {
             </div>            
        </div>
     </div>
+    </>
   )
 }
 
