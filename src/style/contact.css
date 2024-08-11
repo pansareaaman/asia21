@@ -82,6 +82,7 @@
 }
 .wrapper{
   height: 69vh;
+  margin-bottom: 200px;
 }
 .h1-gallery-over {
 top: 18%;
@@ -108,9 +109,11 @@ top: 18%;
 
 .form_main{
   background-color: rgb(233 231 231);
+  margin-bottom: 200px;
 }
 .wrapper{
   height: 69vh;
+  margin-bottom: 50px;
 }
 .h1-gallery-over {
   top: 18%;

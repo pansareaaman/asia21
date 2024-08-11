@@ -46,7 +46,7 @@
   align-items: center;
   height: 500px;
   flex-wrap: wrap;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .video-part {
@@ -54,6 +54,11 @@
   /* background-color: aqua; */
   padding: 30px;
   /* padding: 50px; */
+  
+}
+
+.video-part iframe{
+  border-radius: 15px;
 }
 
 .info-part {

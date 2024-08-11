@@ -7,6 +7,7 @@ import { PiFlowerLotus } from "react-icons/pi";
 import { CiDumbbell } from "react-icons/ci";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import Classes from "./Classes";
+
 const Home = () => {
   return (
     <div>
@@ -30,10 +31,12 @@ const Home = () => {
             height="300px"
             src="https://www.youtube.com/embed/qBjZ3Osp5fo?si=vtdKvT54MP9qTUrx"
             title="YouTube video player"
-            frameborder="0"
+            frameborder="1"
             allow="accelerometer;fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
+            
+            
           ></iframe>
         </div>
         <div className="info-part">

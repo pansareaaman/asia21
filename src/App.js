@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home';
-// import { Footer } from './components/Footer';
+import  Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Classes from './components/Classes';
 import Navbar from './components/Navbar';
@@ -23,7 +23,7 @@ function App() {
           <Route path="/signup" element={<Signup />} /> 
           <Route path="/classes" element={<Classes />} /> 
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

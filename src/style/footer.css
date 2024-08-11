@@ -1,0 +1,19 @@
+.footer{
+    position: sticky;
+    
+}
+.f-container{
+    background-color: #4C4C4C;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+   
+}
+
+.f-container h4{
+     color: rgb(223, 224, 227);
+}
+
+.f-container h4 span{
+    color: #F29E38;
+}
